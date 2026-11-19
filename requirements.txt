@@ -1,0 +1,10 @@
+
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+PyMuPDF
+faiss-cpu
+rank-bm25
+sentence-transformers
