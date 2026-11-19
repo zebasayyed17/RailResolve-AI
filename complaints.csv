@@ -1,0 +1,121 @@
+complaint_id,complaint_text,category,priority,status,train_number,journey_date,created_at,resolved_at,data_source
+RR0045,I received a refund notification but the amount is not showing.,Refund,Unassessed,Open,,,2026-10-15,,synthetic
+RR0048,I missed my connecting train because of a delay.,Delay,Unassessed,Open,,,2026-10-18,,synthetic
+RR0005,There was an unpleasant smell inside the sleeper coach.,Cleanliness,Unassessed,Open,,,2026-10-05,,synthetic
+RR0056,I was unable to reach my destination on the scheduled time.,Delay,Unassessed,Open,,,2026-10-26,,synthetic
+RR0027,The payment gateway showed success but the ticket was not issued.,Ticketing,Unassessed,Open,,,2026-10-27,,synthetic
+RR0065,The lights inside our coach are not switching on.,Facilities,Unassessed,Open,,,2026-10-05,,synthetic
+RR0074,The air ventilation system in my coach is not operating.,Facilities,Unassessed,Open,,,2026-10-14,,synthetic
+RR0011,The railway coach was poorly maintained and unhygienic.,Cleanliness,Unassessed,Open,,,2026-10-11,,synthetic
+RR0041,I want to know the refund procedure for a cancelled train.,Refund,Unassessed,Open,,,2026-10-11,,synthetic
+RR0108,The coach position displayed at the station appears incorrect.,Information,Unassessed,Open,,,2026-10-18,,synthetic
+RR0019,The website generated two tickets for one payment.,Ticketing,Unassessed,Open,,,2026-10-19,,synthetic
+RR0063,The charging point next to my seat is not functioning.,Facilities,Unassessed,Open,,,2026-10-03,,synthetic
+RR0012,The washroom floor was wet and covered in dirt.,Cleanliness,Unassessed,Open,,,2026-10-12,,synthetic
+RR0037,I cancelled a waitlisted ticket and need refund details.,Refund,Unassessed,Open,,,2026-10-07,,synthetic
+RR0090,I need help reporting a missing item from my journey.,Lost Property,Unassessed,Open,,,2026-10-30,,synthetic
+RR0092,A railway employee spoke rudely when I asked for help.,Staff Assistance,Unassessed,Open,,,2026-10-02,,synthetic
+RR0110,The train route information is not available on the display.,Information,Unassessed,Open,,,2026-10-20,,synthetic
+RR0001,The floor of coach B2 was covered with food waste.,Cleanliness,Unassessed,Open,,,2026-10-01,,synthetic
+RR0089,I lost my purse while travelling and need assistance.,Lost Property,Unassessed,Open,,,2026-10-29,,synthetic
+RR0105,My request for help from the train staff remains unresolved.,Staff Assistance,Unassessed,Open,,,2026-10-15,,synthetic
+RR0066,The washroom water supply has stopped during the journey.,Facilities,Unassessed,Open,,,2026-10-06,,synthetic
+RR0046,My train has been delayed by more than two hours.,Delay,Unassessed,Open,,,2026-10-16,,synthetic
+RR0032,The cancellation amount deducted from my ticket seems incorrect.,Refund,Unassessed,Open,,,2026-10-02,,synthetic
+RR0071,The wheelchair assistance facility was not available.,Facilities,Unassessed,Open,,,2026-10-11,,synthetic
+RR0043,I need information about cancellation charges for my ticket.,Refund,Unassessed,Open,,,2026-10-13,,synthetic
+RR0013,There were insects around the garbage collection area.,Cleanliness,Unassessed,Open,,,2026-10-13,,synthetic
+RR0016,My payment was deducted but the ticket booking failed.,Ticketing,Unassessed,Open,,,2026-10-16,,synthetic
+RR0115,I need information about the stoppages on this route.,Information,Unassessed,Open,,,2026-10-25,,synthetic
+RR0077,My mobile phone is missing from my reserved seat.,Lost Property,Unassessed,Open,,,2026-10-17,,synthetic
+RR0098,I experienced unprofessional behaviour from railway personnel.,Staff Assistance,Unassessed,Open,,,2026-10-08,,synthetic
+RR0025,The passenger name printed on my ticket is incorrect.,Ticketing,Unassessed,Open,,,2026-10-25,,synthetic
+RR0079,I cannot find the suitcase I carried during the journey.,Lost Property,Unassessed,Open,,,2026-10-19,,synthetic
+RR0023,The ticket confirmation message has not arrived.,Ticketing,Unassessed,Open,,,2026-10-23,,synthetic
+RR0097,The train attendant refused to help with my luggage.,Staff Assistance,Unassessed,Open,,,2026-10-07,,synthetic
+RR0057,The railway announcement mentioned an unexpected delay.,Delay,Unassessed,Open,,,2026-10-27,,synthetic
+RR0111,I need clarification about the train's boarding station.,Information,Unassessed,Open,,,2026-10-21,,synthetic
+RR0031,I cancelled my confirmed ticket but have not received the refund.,Refund,Unassessed,Open,,,2026-10-01,,synthetic
+RR0054,The departure was postponed without a clear announcement.,Delay,Unassessed,Open,,,2026-10-24,,synthetic
+RR0119,I cannot find the arrival platform information online.,Information,Unassessed,Open,,,2026-10-29,,synthetic
+RR0010,The dustbins were not emptied during the journey.,Cleanliness,Unassessed,Open,,,2026-10-10,,synthetic
+RR0034,I submitted a TDR and need an update about its status.,Refund,Unassessed,Open,,,2026-10-04,,synthetic
+RR0026,My reservation status is not updating on the portal.,Ticketing,Unassessed,Open,,,2026-10-26,,synthetic
+RR0070,The water tap in the toilet is broken.,Facilities,Unassessed,Open,,,2026-10-10,,synthetic
+RR0029,The booking website deducted money twice for one transaction.,Ticketing,Unassessed,Open,,,2026-10-29,,synthetic
+RR0099,The station employee did not guide me to the correct platform.,Staff Assistance,Unassessed,Open,,,2026-10-09,,synthetic
+RR0086,My travel bag is missing after I left the station.,Lost Property,Unassessed,Open,,,2026-10-26,,synthetic
+RR0006,The cleaning staff did not clean our compartment.,Cleanliness,Unassessed,Open,,,2026-10-06,,synthetic
+RR0091,The coach attendant did not respond to my assistance request.,Staff Assistance,Unassessed,Open,,,2026-10-01,,synthetic
+RR0069,The compartment is extremely hot because the AC is not working.,Facilities,Unassessed,Open,,,2026-10-09,,synthetic
+RR0040,My online refund request has not been processed.,Refund,Unassessed,Open,,,2026-10-10,,synthetic
+RR0050,There has been no update about the delayed express train.,Delay,Unassessed,Open,,,2026-10-20,,synthetic
+RR0036,My bank account has not received the eligible ticket refund.,Refund,Unassessed,Open,,,2026-10-06,,synthetic
+RR0017,I received a payment confirmation but no PNR number.,Ticketing,Unassessed,Open,,,2026-10-17,,synthetic
+RR0067,The coach doors are difficult to open and close.,Facilities,Unassessed,Open,,,2026-10-07,,synthetic
+RR0035,The railway has cancelled my train and I need refund information.,Refund,Unassessed,Open,,,2026-10-05,,synthetic
+RR0114,The train timetable on the website appears outdated.,Information,Unassessed,Open,,,2026-10-24,,synthetic
+RR0008,Food wrappers were scattered under the passenger seats.,Cleanliness,Unassessed,Open,,,2026-10-08,,synthetic
+RR0044,My TDR refund has not been credited to my account.,Refund,Unassessed,Open,,,2026-10-14,,synthetic
+RR0073,The berth reading light has stopped functioning.,Facilities,Unassessed,Open,,,2026-10-13,,synthetic
+RR0068,There is no working mobile charging socket near my berth.,Facilities,Unassessed,Open,,,2026-10-08,,synthetic
+RR0084,I forgot a shopping bag underneath my berth.,Lost Property,Unassessed,Open,,,2026-10-24,,synthetic
+RR0028,I cannot access my ticket using my booking reference.,Ticketing,Unassessed,Open,,,2026-10-28,,synthetic
+RR0020,I entered the wrong passenger details during booking.,Ticketing,Unassessed,Open,,,2026-10-20,,synthetic
+RR0096,A staff member provided incorrect information about my coach.,Staff Assistance,Unassessed,Open,,,2026-10-06,,synthetic
+RR0101,The staff member was unavailable when I needed assistance.,Staff Assistance,Unassessed,Open,,,2026-10-11,,synthetic
+RR0009,The coach windows had not been cleaned properly.,Cleanliness,Unassessed,Open,,,2026-10-09,,synthetic
+RR0014,The passenger compartment had not been cleaned before boarding.,Cleanliness,Unassessed,Open,,,2026-10-14,,synthetic
+RR0085,I may have left my wristwatch in the railway coach.,Lost Property,Unassessed,Open,,,2026-10-25,,synthetic
+RR0004,The seats in my reserved coach had visible stains.,Cleanliness,Unassessed,Open,,,2026-10-04,,synthetic
+RR0018,My e-ticket is not appearing in my booking history.,Ticketing,Unassessed,Open,,,2026-10-18,,synthetic
+RR0039,I need clarification about refund deductions on my reservation.,Refund,Unassessed,Open,,,2026-10-09,,synthetic
+RR0118,The station information board is showing incorrect details.,Information,Unassessed,Open,,,2026-10-28,,synthetic
+RR0007,The washbasin area was extremely dirty.,Cleanliness,Unassessed,Open,,,2026-10-07,,synthetic
+RR0078,I forgot my wallet in the sleeper coach.,Lost Property,Unassessed,Open,,,2026-10-18,,synthetic
+RR0112,The station announcement did not clearly mention the train number.,Information,Unassessed,Open,,,2026-10-22,,synthetic
+RR0095,The onboard staff ignored my request for medical assistance.,Staff Assistance,Unassessed,Open,,,2026-10-05,,synthetic
+RR0055,The train is running several hours late today.,Delay,Unassessed,Open,,,2026-10-25,,synthetic
+RR0051,My train is running behind its scheduled timetable.,Delay,Unassessed,Open,,,2026-10-21,,synthetic
+RR0081,A black handbag was left behind in my compartment.,Lost Property,Unassessed,Open,,,2026-10-21,,synthetic
+RR0047,The train has not arrived at the departure station.,Delay,Unassessed,Open,,,2026-10-17,,synthetic
+RR0082,I misplaced my glasses while travelling by train.,Lost Property,Unassessed,Open,,,2026-10-22,,synthetic
+RR0062,There is no drinking water available in the coach.,Facilities,Unassessed,Open,,,2026-10-02,,synthetic
+RR0117,I want to know where the train will terminate.,Information,Unassessed,Open,,,2026-10-27,,synthetic
+RR0080,I left a laptop bag in the overhead luggage rack.,Lost Property,Unassessed,Open,,,2026-10-20,,synthetic
+RR0094,I could not get assistance from the station staff.,Staff Assistance,Unassessed,Open,,,2026-10-04,,synthetic
+RR0042,My refund claim was submitted but no status is available.,Refund,Unassessed,Open,,,2026-10-12,,synthetic
+RR0059,The live running status does not show the current train position.,Delay,Unassessed,Open,,,2026-10-29,,synthetic
+RR0049,The arrival time displayed on the board keeps changing.,Delay,Unassessed,Open,,,2026-10-19,,synthetic
+RR0102,I want to report misconduct by a railway employee.,Staff Assistance,Unassessed,Open,,,2026-10-12,,synthetic
+RR0058,My connecting journey was affected by the delayed service.,Delay,Unassessed,Open,,,2026-10-28,,synthetic
+RR0076,I left my blue backpack on the train after getting off.,Lost Property,Unassessed,Open,,,2026-10-16,,synthetic
+RR0033,My refund request is still pending after ticket cancellation.,Refund,Unassessed,Open,,,2026-10-03,,synthetic
+RR0113,I am unable to locate the correct coach position.,Information,Unassessed,Open,,,2026-10-23,,synthetic
+RR0060,Passengers have been waiting because the train has not arrived.,Delay,Unassessed,Open,,,2026-10-30,,synthetic
+RR0064,The ceiling fans in the compartment are not working.,Facilities,Unassessed,Open,,,2026-10-04,,synthetic
+RR0106,The station display shows a different platform from the announcement.,Information,Unassessed,Open,,,2026-10-16,,synthetic
+RR0038,The refund amount credited is lower than I expected.,Refund,Unassessed,Open,,,2026-10-08,,synthetic
+RR0030,My ticket details are missing from my registered account.,Ticketing,Unassessed,Open,,,2026-10-30,,synthetic
+RR0116,The platform number was changed but no announcement was made.,Information,Unassessed,Open,,,2026-10-26,,synthetic
+RR0002,The toilets were dirty throughout the journey.,Cleanliness,Unassessed,Open,,,2026-10-02,,synthetic
+RR0053,I need the latest arrival estimate for my delayed train.,Delay,Unassessed,Open,,,2026-10-23,,synthetic
+RR0022,My booking transaction is showing as pending.,Ticketing,Unassessed,Open,,,2026-10-22,,synthetic
+RR0003,Garbage bins in the passenger compartment were overflowing.,Cleanliness,Unassessed,Open,,,2026-10-03,,synthetic
+RR0024,I am unable to book a ticket through the railway website.,Ticketing,Unassessed,Open,,,2026-10-24,,synthetic
+RR0104,The railway staff did not assist an elderly passenger.,Staff Assistance,Unassessed,Open,,,2026-10-14,,synthetic
+RR0100,I requested help several times but received no response.,Staff Assistance,Unassessed,Open,,,2026-10-10,,synthetic
+RR0088,A small suitcase was left inside the train after arrival.,Lost Property,Unassessed,Open,,,2026-10-28,,synthetic
+RR0109,I cannot find the scheduled departure time for my train.,Information,Unassessed,Open,,,2026-10-19,,synthetic
+RR0075,The drinking water dispenser at the station is out of service.,Facilities,Unassessed,Open,,,2026-10-15,,synthetic
+RR0087,I accidentally left my phone charger near my seat.,Lost Property,Unassessed,Open,,,2026-10-27,,synthetic
+RR0083,My document folder was left near the window seat.,Lost Property,Unassessed,Open,,,2026-10-23,,synthetic
+RR0120,The passenger information system is not displaying coach details.,Information,Unassessed,Open,,,2026-10-30,,synthetic
+RR0021,I cannot download the ticket after successful payment.,Ticketing,Unassessed,Open,,,2026-10-21,,synthetic
+RR0061,The air conditioning in coach A1 stopped working.,Facilities,Unassessed,Open,,,2026-10-01,,synthetic
+RR0072,The passenger information display inside the coach is not working.,Facilities,Unassessed,Open,,,2026-10-12,,synthetic
+RR0107,I need information about the platform for my arriving train.,Information,Unassessed,Open,,,2026-10-17,,synthetic
+RR0015,The toilets were overflowing and needed immediate cleaning.,Cleanliness,Unassessed,Open,,,2026-10-15,,synthetic
+RR0093,The ticket examiner did not address my reservation concern.,Staff Assistance,Unassessed,Open,,,2026-10-03,,synthetic
+RR0052,The train stopped at a station for an unusually long time.,Delay,Unassessed,Open,,,2026-10-22,,synthetic
+RR0103,The coach supervisor did not address the passenger complaint.,Staff Assistance,Unassessed,Open,,,2026-10-13,,synthetic

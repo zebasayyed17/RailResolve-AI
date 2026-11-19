@@ -1,0 +1,17 @@
+case_id,complaint_text,expected_category,data_source
+CL001,There is a strong odour coming from the unclean passenger toilet.,Cleanliness,synthetic
+CL002,The railway staff have not removed the accumulated waste from our coach.,Cleanliness,synthetic
+CL003,My card was charged successfully but the reservation was never created.,Ticketing,synthetic
+CL004,I am unable to retrieve my electronic ticket after completing the booking.,Ticketing,synthetic
+CL005,The refund for my cancelled reservation has not reached my original payment account.,Refund,synthetic
+CL006,I need to understand the deduction applied to my cancelled railway ticket.,Refund,synthetic
+CL007,My scheduled train arrival is overdue and I need an updated estimate.,Delay,synthetic
+CL008,A late-running railway service caused me to miss another connection.,Delay,synthetic
+CL009,The electrical outlet provided beside my berth has stopped supplying power.,Facilities,synthetic
+CL010,There is no functioning cooling system inside the passenger compartment.,Facilities,synthetic
+CL011,I accidentally left my brown suitcase in the train compartment.,Lost Property,synthetic
+CL012,My handbag appears to be missing following my railway journey.,Lost Property,synthetic
+CL013,The onboard employee did not help when I reported a passenger issue.,Staff Assistance,synthetic
+CL014,I want to register a complaint about the behaviour of a railway worker.,Staff Assistance,synthetic
+CL015,The station's electronic board is displaying an incorrect boarding platform.,Information,synthetic
+CL016,I need the latest information about the location of my train's coach.,Information,synthetic
