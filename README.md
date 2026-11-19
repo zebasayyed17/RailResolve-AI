@@ -1,41 +1,132 @@
-# RailResolve AI
+# 🚆 RailResolve AI
+### AI-Powered Railway Complaint Intelligence & Resolution Support System
 
-An AI-assisted railway complaint classification and resolution prototype built with **Python, Streamlit, NLP, hybrid policy retrieval, and SQLite**.
+**Transforming passenger complaints into structured insights, policy-backed recommendations, and actionable case intelligence.**
 
-RailResolve AI is designed to help organize passenger complaints, identify relevant policy information, prepare response drafts, and support staff review. It is a prototype for demonstration and learning—not an official Indian Railways grievance portal.
+RailResolve AI is an AI-assisted railway grievance management prototype built using Python, Streamlit, Natural Language Processing (NLP), hybrid information retrieval, and SQLite.
 
-## Features
+The application helps organize passenger complaints, identify relevant policy information, generate suggested responses, and support staff in reviewing and managing cases through an integrated interface.
 
-- **Complaint intelligence:** analyse a passenger complaint and identify its category and relevant information.
-- **Policy evidence retrieval:** retrieve relevant passages from railway policy documents using dense vector search (FAISS) and BM25 keyword search.
-- **Response drafting:** prepare a suggested response using the complaint details and retrieved evidence.
-- **Case management:** store complaints, inspect case details, update status, and review case history.
-- **Staff review workflow:** allow staff to review suggested responses and record decisions.
-- **Grievance analytics:** view complaint categories, statuses, priorities, review summaries, and trends.
-- **Advanced grievance intelligence:** includes explainable priority recommendations, potential duplicate detection, configurable demo SLA tracking, suggested department routing, location hotspot summaries, and management insights.
+Rather than functioning as a basic complaint classification tool, RailResolve AI brings together complaint intelligence, policy evidence retrieval, response assistance, case tracking, and grievance analytics in one platform.
 
-> **Important:** Priority, routing, and SLA values are prototype recommendations. They are not official railway rules or service-level commitments. Suggestions and response drafts require human review. The application does not submit or resolve complaints on behalf of passengers.
+> **Project status:** Demonstration and learning prototype. It is not an official Indian Railways grievance portal and is not connected to live railway systems.
 
-## Technology stack
+---
 
-- Python
-- Streamlit
-- Pandas and NumPy
-- scikit-learn
-- Sentence Transformers (`all-MiniLM-L6-v2`)
-- FAISS for vector similarity search
-- BM25 for keyword retrieval
-- SQLite for local case storage
-- PyMuPDF for extracting text from PDF policy documents
+## ✨ Key Features
 
-## Project structure
+### 1. Intelligent Complaint Analysis
+- Analyse passenger complaints using NLP-based classification.
+- Identify complaint categories and relevant information.
+- Organize unstructured complaint text into structured case information.
+
+### 2. Hybrid Policy Retrieval
+- Retrieve relevant information from railway policy documents.
+- Combine **FAISS dense vector search** with **BM25 keyword retrieval**.
+- Provide policy-related evidence to support response preparation.
+
+### 3. AI-Assisted Response Drafting
+- Prepare suggested complaint responses using complaint details and retrieved policy evidence.
+- Support staff with context-aware response recommendations.
+- Keep human review as part of the response workflow.
+
+### 4. Case Management
+- Store complaint records using SQLite.
+- Inspect individual case details.
+- Update complaint statuses and review case history.
+
+### 5. Grievance Analytics Dashboard
+- Explore complaint categories and case statuses.
+- Review priorities and staff decisions.
+- Analyse complaint trends and management insights.
+
+### 6. Advanced Grievance Intelligence
+- Explainable priority recommendations.
+- Potential duplicate complaint detection.
+- Configurable demonstration SLA tracking.
+- Suggested department routing.
+- Location-based complaint hotspot summaries.
+- Management-level grievance insights.
+
+**Important:** Priority, department routing, and SLA values are prototype recommendations. They do not represent official railway rules or service-level commitments. Suggested responses and recommendations require human review.
+
+---
+
+## 🧠 How It Works
+
+The application follows an integrated complaint intelligence workflow:
+
+1. **Complaint Input** – A passenger complaint is entered into the application.
+2. **Complaint Analysis** – NLP-based processing identifies relevant complaint information and category.
+3. **Policy Retrieval** – Hybrid retrieval searches railway policy documents using FAISS and BM25.
+4. **Response Assistance** – The system prepares a suggested response using the complaint context and retrieved evidence.
+5. **Staff Review** – Staff can inspect the case, review recommendations, and record decisions.
+6. **Analytics** – Complaint records contribute to case-level dashboards and management insights.
+
+### System Architecture
+
+```text
+          Passenger Complaint
+                  |
+                  v
+        Complaint Intelligence
+                  |
+          NLP Classification
+                  |
+                  v
+        Hybrid Policy Retrieval
+           /            \
+          v              v
+     FAISS Search     BM25 Search
+          \              /
+           \            /
+                  |
+                  v
+          Retrieved Evidence
+                  |
+                  v
+        Response Drafting
+                  |
+                  v
+            Staff Review
+                  |
+                  v
+          SQLite Case Storage
+                  |
+                  v
+        Grievance Analytics
+```
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+|---|---|
+| Programming Language | Python |
+| User Interface | Streamlit |
+| Data Processing | Pandas, NumPy |
+| Machine Learning | scikit-learn |
+| NLP & Embeddings | Sentence Transformers |
+| Embedding Model | all-MiniLM-L6-v2 |
+| Vector Search | FAISS |
+| Keyword Retrieval | BM25 |
+| Database | SQLite |
+| PDF Processing | PyMuPDF |
+| Data Visualization | Streamlit |
+
+---
+
+## 📂 Project Structure
 
 ```text
 RailResolve-AI/
+│
 ├── app.py
 ├── create_data.py
 ├── requirements.txt
 ├── README.md
+│
 ├── src/
 │   ├── __init__.py
 │   ├── advanced_features.py
@@ -46,33 +137,36 @@ RailResolve-AI/
 │   ├── missing_info.py
 │   ├── resolution_agent.py
 │   └── retriever.py
+│
 ├── data/
 │   ├── complaints.csv
 │   └── classification_evaluation.csv
+│
 ├── documents/
 │   └── policies/
 │       ├── citizens_charter_passenger_services.pdf
 │       └── refund_rules.pdf
+│
 └── artifacts/
     └── vector_index/
         ├── chunks.json
         └── policy.faiss
 ```
 
-The SQLite database (`data/railresolve.db`) is created locally by the application when it starts. It is not necessary to commit a personal or populated database to GitHub.
+The SQLite database (`data/railresolve.db`) is generated locally when the application runs. A personal or populated database does not need to be committed to GitHub.
 
-## Getting started
+---
 
-### 1. Clone the repository
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/zebasayyed17/RailResolve-AI.git
 cd RailResolve-AI
 ```
 
-If your repository has a different name, replace the URL and folder name above with your repository's URL and name.
-
-### 2. Create and activate a virtual environment
+### 2. Create a Virtual Environment
 
 **Windows (PowerShell):**
 
@@ -88,82 +182,107 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 3. Install Dependencies
 
 ```bash
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### 4. Prepare the required project files
+### 4. Prepare Policy Documents
 
-Make sure the following policy documents are present:
+Ensure the following documents are available:
 
 ```text
 documents/policies/citizens_charter_passenger_services.pdf
 documents/policies/refund_rules.pdf
 ```
 
-The hybrid retriever also expects these generated retrieval files:
+The application also requires the generated retrieval index:
 
 ```text
 artifacts/vector_index/chunks.json
 artifacts/vector_index/policy.faiss
 ```
 
-If the retrieval files are not included in your checkout, build them from the policy PDFs:
+If these files are not included in your repository checkout, generate them using:
 
 ```bash
 python -m src.document_processor
 python -m src.retriever --build
 ```
 
-The first run of the embedding model may download `sentence-transformers/all-MiniLM-L6-v2` and can take some time.
+The first run may download the `sentence-transformers/all-MiniLM-L6-v2` embedding model.
 
-### 5. Generate the sample complaint datasets (optional)
-
-To create the sample complaint and classification evaluation CSV files:
+### 5. Generate Sample Data (Optional)
 
 ```bash
 python create_data.py
 ```
 
-This creates:
+This generates:
 
-```text
-data/complaints.csv
-data/classification_evaluation.csv
-```
+- `data/complaints.csv`
+- `data/classification_evaluation.csv`
 
-### 6. Run the Streamlit application
+### 6. Launch the Application
 
 ```bash
 streamlit run app.py
 ```
 
-Streamlit will display a local URL in the terminal, usually `http://localhost:8501`.
+Open the local URL displayed in your terminal, usually:
 
-## Data and privacy
+```text
+http://localhost:8501
+```
 
-- The sample complaint data generated by `create_data.py` is synthetic demonstration data.
-- The application stores case information in a local SQLite database under `data/`.
-- Do not commit real passenger personal information, credentials, API keys, or private complaint records to a public repository.
-- Policy documents should be shared only where their terms and permissions allow.
+---
 
-## Limitations
+## 📊 Data & Privacy
 
-- This is a prototype and is not connected to live Indian Railways systems.
-- Retrieved passages and generated response drafts may be incomplete or unsuitable for a particular case.
-- Staff should verify policy evidence and approve any response before it is used.
-- SLA targets, priority suggestions, and department routing are configurable demo features, not official service commitments.
-- Analytics reflect only the cases entered into this application's local database; they are not railway-wide statistics.
+- Sample complaint records generated by `create_data.py` are synthetic demonstration data.
+- Case information is stored locally in SQLite.
+- Analytics reflect only the cases entered into the application's local database.
+- Do not upload real passenger personal information, credentials, API keys, or private complaint records to a public repository.
+- Share policy documents only where their terms and permissions allow.
 
-## Future improvements
+---
 
-Potential extensions include authenticated staff access, deployment, stronger evaluation of classification and retrieval quality, and integration with approved live grievance systems.
+## ⚠️ Limitations & Responsible Use
 
-## Author
+RailResolve AI is an educational prototype and has several limitations:
+
+- It is not integrated with live Indian Railways systems.
+- Retrieved policy passages may be incomplete or may not cover every complaint scenario.
+- Suggested responses and recommendations may require correction.
+- Priority, routing, and SLA features are configurable demonstration features, not official railway commitments.
+- Analytics should not be interpreted as railway-wide complaint statistics.
+- Staff should verify policy evidence and approve responses before use.
+
+The application supports grievance handling; it does not independently submit or resolve passenger complaints.
+
+---
+
+## 🚀 Future Enhancements
+
+Potential improvements include:
+
+- Secure, role-based staff authentication.
+- Deployment with a production-ready database.
+- More extensive classification and retrieval evaluation.
+- Improved multilingual complaint understanding.
+- Integration with approved railway grievance systems.
+- Enhanced reporting and operational dashboards.
+
+---
+
+## 👩‍💻 Author
 
 **Zeba Sayyed**
 
-GitHub: [@zebasayyed17](https://github.com/zebasayyed17)
+Data Science & Analytics | Machine Learning | NLP | Generative AI
+
+- **GitHub:** [@zebasayyed17](https://github.com/zebasayyed17)
+- **LinkedIn:** [Connect with me](https://www.linkedin.com/in/zeba-sayyed-28766941b)
+
